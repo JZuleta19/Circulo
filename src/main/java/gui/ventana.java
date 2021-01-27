@@ -17,20 +17,20 @@ public class ventana extends JFrame {
     JPanel pElementos;
 
     public void iniciar() {
-        setSize(300,200);
+        setSize(250,200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         lblRadio = new JLabel("Radio: ");
-        txtRadio = new JTextField(4);        
+        txtRadio = new JTextField(6);        
         btnCalcular = new JButton("Calcular");
         btnCalcular.addMouseListener(new Calcular());
         lblPerimetro = new JLabel("Perimetro ");
-        txtPerimetro = new JTextField(15);
+        txtPerimetro = new JTextField(20);       
         txtPerimetro.setEditable(false);
         lblArea = new JLabel("Area ");
-        txtArea = new JTextField(15);
-        
+        txtArea = new JTextField(20);        
         txtArea.setEditable(false);
         pElementos = new JPanel();
+        pElementos.setBackground(Color.LIGHT_GRAY);
         pElementos.add(lblRadio);
         pElementos.add(txtRadio);
         pElementos.add(btnCalcular);
