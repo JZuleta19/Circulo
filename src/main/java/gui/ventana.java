@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package gui;
 import javax.swing.*;
 import java.awt.event.*;
@@ -21,7 +17,7 @@ public class ventana extends JFrame {
     JPanel pElementos;
 
     public void iniciar() {
-        setSize(220, 200);
+        setSize(300,200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         lblRadio = new JLabel("Radio: ");
         txtRadio = new JTextField(4);        
@@ -32,6 +28,7 @@ public class ventana extends JFrame {
         txtPerimetro.setEditable(false);
         lblArea = new JLabel("Area ");
         txtArea = new JTextField(15);
+        
         txtArea.setEditable(false);
         pElementos = new JPanel();
         pElementos.add(lblRadio);
@@ -42,6 +39,7 @@ public class ventana extends JFrame {
         pElementos.add(lblArea);
         pElementos.add(txtArea);
         setContentPane(pElementos);
+        
         setVisible(true);
     }
     public class Calcular extends MouseAdapter {
