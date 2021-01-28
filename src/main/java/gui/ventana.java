@@ -24,10 +24,12 @@ public class ventana extends JFrame {
         btnCalcular = new JButton("Calcular");
         btnCalcular.addMouseListener(new Calcular());
         lblPerimetro = new JLabel("Perimetro ");
-        txtPerimetro = new JTextField(20);       
+        txtPerimetro = new JTextField(20); 
+        txtPerimento.setForeground(Color.blue);
         txtPerimetro.setEditable(false);
         lblArea = new JLabel("Area ");
-        txtArea = new JTextField(20);        
+        txtArea = new JTextField(20);
+        txtArea.setForeground(Color.blue);
         txtArea.setEditable(false);
         pElementos = new JPanel();
         pElementos.setBackground(Color.LIGHT_GRAY);
