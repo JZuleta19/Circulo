@@ -25,7 +25,7 @@ public class ventana extends JFrame {
         btnCalcular.addMouseListener(new Calcular());
         lblPerimetro = new JLabel("Perimetro ");
         txtPerimetro = new JTextField(20); 
-        txtPerimento.setForeground(Color.blue);
+        txtPerimetro.setForeground(Color.blue);
         txtPerimetro.setEditable(false);
         lblArea = new JLabel("Area ");
         txtArea = new JTextField(20);
