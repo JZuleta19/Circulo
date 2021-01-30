@@ -15,8 +15,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ventana v=new ventana();
-        
+        ventana v=new ventana();        
     }
     
 }
