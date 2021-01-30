@@ -32,7 +32,7 @@ public class ventana extends JFrame {
         txtArea.setForeground(Color.blue);
         txtArea.setEditable(false);
         pElementos = new JPanel();
-        pElementos.setBackground(Color.LIGHT_GRAY);
+        pElementos.setBackground(Color.blue);
         pElementos.add(lblRadio);
         pElementos.add(txtRadio);
         pElementos.add(btnCalcular);
